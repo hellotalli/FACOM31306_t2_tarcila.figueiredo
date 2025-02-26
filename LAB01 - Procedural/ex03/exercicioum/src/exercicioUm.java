@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class principal {
+public class exercicioUm {
 
     public static void ex01(){
         Scanner sc = new Scanner(System.in);
