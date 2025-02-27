@@ -16,7 +16,7 @@ public class Produto {
         this.quantidade = 0;
     }
 
-    // Getters e Setters
+
     public String getNome() {
         return nome;
     }
@@ -40,7 +40,6 @@ public class Produto {
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
-
 
     public boolean alteraPreco(float porcentagem) {
         if (porcentagem > -100) {

@@ -17,14 +17,14 @@ public class GerenciarProdutos {
         }
 
 
-        produtos[0].alteraPreco(10);  // Produto 1 +10%
-        produtos[2].alteraPreco(10);  // Produto 3 +10%
+        produtos[0].alteraPreco(10);
+        produtos[2].alteraPreco(10);
 
-        if (!produtos[1].alteraPreco(-5)) { // Produto 2 -5%
+        if (!produtos[1].alteraPreco(-5)) {
             System.out.println("Erro: preço não alterado. Porcentagem inválida");
         }
 
-        if (!produtos[3].alteraPreco(-110)) { // Produto 4 -110% (falha)
+        if (!produtos[3].alteraPreco(-110)) {
             System.out.println("Erro: preço não alterado. Porcentagem inválida");
         }
 
