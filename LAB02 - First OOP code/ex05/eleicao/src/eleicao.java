@@ -24,7 +24,7 @@ if(numCandidato > candidatos.length){
         System.out.println("ano:" + ano);
         System.out.println("candidatos: ");
         for (main c : candidatos) {
-            if (c != null) { // Evitar NullPointerException
+            if (c != null) {
                 c.mostrar();
             }
         }
